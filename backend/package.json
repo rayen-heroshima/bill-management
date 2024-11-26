@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a backend for telecom app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "install": "^0.13.0",
+    "moment": "^2.30.1",
+    "mongoose": "^8.4.5",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4",
+    "npm": "^10.8.2"
+  }
+}
